@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Летний интенсив</title>
+    <meta name="desctiption" value="Летний интенсив">
+    <meta name="keywords" value="Летний интенсив">
+    <link href="media/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="media/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+ 
+
+        <form class="form-inline phoneform phone_form" action="mail.php" method="post">
+            <div class="form-group">
+                <label class="sr-only" for="examplePhone">+375 (__) ___–__–__</label>
+                <!--<input name="phone" required type="text" pattern="\+375\([0-9]{2}\)[0-9 -]{6,12}"
+                       class="form-control headform input-lg" id="examplePhone"
+                       value="+375() ">-->
+                <input type="tel"  name="phone" class="form-control headform input-lg user_phone" id="examplePhone" required pattern="\+375\([0-9]{2}\)[0-9 -]{6,12}" placeholder="+375(__) ___ __ __" title="Формат: (096) 999 99 99" />
+            </div>
+            <input value="Записаться" id="first" disabled type="submit" name="first" class="btn btn-default btn-header btn-lg">
+        </form>
+    </div>
+ 
+   
+</body>
+<script src="media/js/jquery-2.2.2.min.js"></script> 
+    <script src="media/js/jquery.maskedinput.min.js"></script>
+    <script src="media/js/is.mobile.js"></script>
+    <script src="media/js/script.js"></script>
+<script src="media/js/my.js"></script>
+</html>
